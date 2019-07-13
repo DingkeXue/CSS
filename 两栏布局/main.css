@@ -1,0 +1,22 @@
+/*
+* 两种方案
+ 方案一：利用浮动布局，左边浮动，右边宽度为100%
+ 方案二：flex 布局
+*/
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.container .left {
+    background: tomato;
+    height: 100vh;
+    width: 200px;
+    float: left;
+}
+
+.container .right {
+    background: gray;
+    width: 100%;
+    height: 100vh;
+}
