@@ -1,0 +1,12 @@
+.wrapper1 {
+    border: 1px solid red;
+}
+.wrapper1 span {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+}
+.clear {
+    clear: both;
+}
