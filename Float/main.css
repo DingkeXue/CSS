@@ -12,3 +12,14 @@
 .clear {
     clear: both;
 }
+
+/* 方法二：父级元素定义：after伪类*/
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+/* IE 专有属性 */
+.clearfix {
+    zoom: 1;
+}
