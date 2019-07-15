@@ -7,6 +7,8 @@
     height: 100px;
     border: 1px solid gray;
 }
+
+/* 方法一：在父级元素最有添加一个空div，并清除浮动。简单、代码少、兼容性好。不过不利于页面优化*/
 .clear {
     clear: both;
 }
