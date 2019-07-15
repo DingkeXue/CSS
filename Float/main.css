@@ -23,3 +23,8 @@
 .clearfix {
     zoom: 1;
 }
+
+/* 方法三：父级元素定义 overflow：hidden。缺点是不能和 position 配合使用，因为超出部分会被隐藏 */
+.wrapper1 {
+    overflow: hidden;
+}
