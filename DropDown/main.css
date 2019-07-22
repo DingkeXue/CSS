@@ -1,0 +1,46 @@
+/*==============导航栏==============*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    overflow: hidden;
+    background: #333333;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list-item {
+    float: left;
+    padding: 14px 16px;
+}
+
+.list-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-item:hover {
+    background: #222;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background: #f4f4f4;
+    width: 100%;
+}
+
+.dropdown:hover .drop-content {
+    display: block;
+}
