@@ -1,0 +1,80 @@
+/*
+less 的基本语法基本上分为以下几个方面：变量、混合、嵌套规则、运算、函数、作用域等
+*/
+/* ===== 变量 =====*/
+@color: tomao;
+a {
+  color: @color
+}
+
+/*===== 编译成css结果========*/
+a {
+  color: tomato;
+}
+
+/* ===== 混合 =====*/
+.item {
+  width: 100px;
+  height: 200px;
+}
+
+.list {
+  .item,
+  margin: 20px;
+}
+/*===== 编译成css结果========*/
+.item {
+  width: 100px;
+  height: 200px;
+}
+
+.list {
+  width: 100px;
+  height: 200px;
+  margin: 20px;
+}
+/*如果我们不想 item 样式输出，可以改写成*/
+.item() {
+  width: 100px;
+  height: 200px;
+}
+
+/* ===== 嵌套 =====*/
+#wrapper {
+  color: tomato;
+  .item {
+    width: 100px;
+  }
+  .list {
+    height: 200px;
+  }
+}
+/*===== 编译成css结果========*/
+#wrapper {
+  color: tomato;
+}
+#wrapper .item {
+  width: 100px;
+}
+#wrapper .list {
+  height: 200px;
+}
+
+/* ===== 函数&运算 提供了+ - * / =====*/
+@base: 5%;
+color: #888/2;
+height: 100% / 2;
+
+
+/* ===== 命名空间和作用域 =====*/
+@var: red;
+#wrapper {
+  @var: white;
+  .item {
+    color: @var; // white
+  }
+}
+
+.list {
+  color: @var; // red
+}
