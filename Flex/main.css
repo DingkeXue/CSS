@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10,
+.box11 {
+    display: flex;
+    background: #ddd;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.item {
+    display: inline-block;
+    height: 20px;
+    margin: 3px;
+    width: 20px;
+    border-radius: 50%;
+    background: #999;
+}
+
+.box2 {
+    justify-content: flex-end;
+}
+
+.box3 {
+    align-items: center;
+}
+
+.box4 {
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.box6 {
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.box7 {
+    justify-content: space-between;
+}
+
+.box8 {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box9 {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.box10 .item:nth-child(2) {
+    align-self: center;
+}
+
+.box11 {
+    justify-content: space-between;
+}
+.box11 .item:nth-child(2) {
+    align-self: flex-end;
+}
