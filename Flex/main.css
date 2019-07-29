@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .box1,
@@ -12,21 +13,30 @@
 .box8,
 .box9,
 .box10,
-.box11 {
+.box11,
+.box12,
+.box13,
+.box14,
+.box15,
+.box16,
+.box17,
+.box18,
+.box19,
+.box20 {
     display: flex;
     background: #ddd;
     height: 100px;
     width: 100px;
     padding: 10px;
-    margin-right: 10px;
+    margin: 10px;
     border-radius: 10px;
 }
 
 .item {
     display: inline-block;
-    height: 20px;
+    height: 25px;
     margin: 3px;
-    width: 20px;
+    width: 25px;
     border-radius: 50%;
     background: #999;
 }
@@ -78,4 +88,63 @@
 }
 .box11 .item:nth-child(2) {
     align-self: flex-end;
+}
+
+.box12 {
+    justify-content: space-around;
+}
+.box12 .item:nth-child(2) {
+    align-self: center;
+}
+.box12 .item:nth-child(3) {
+    align-self: flex-end;
+}
+
+.box13 {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.box13 .item:nth-child(4) {
+    align-self: flex-end;
+}
+
+.box14 {
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.box14 .column {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box15 {
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.box16 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.box17 {
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.box17 .row {
+    flex-basis: 100%;
+    display: flex;
+}
+.box17 .row:nth-child(2) {
+    justify-content: center;
+}
+.box17 .row:nth-child(3) {
+    justify-content: space-between;
+}
+
+.box19 {
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
