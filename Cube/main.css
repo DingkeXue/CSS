@@ -1,15 +1,16 @@
 .wrapper {
-    margin-top: 50px;
-    transform: perspective(800px);
+    margin-top: 100px;
+    transform: perspective(1000px);
 }
 
 .cube {
     -webkit-transform-style: preserve-3d;
     height: 200px;
     width: 200px;
+    line-height: 200px;
     position: relative;
     margin: auto;
-    animation: run 2s infinite;
+    animation: run 20s infinite;
 }
 
 @keyframes run {
@@ -29,28 +30,24 @@
     background: #666;
     text-align: center;
     color: tomato;
+    opacity: .8;
 }
 
 .plane-front {
-    transform: translateZ(100px);
+    transform:translateZ(100px);
 }
-
 .plane-back {
-    transform: translateZ(100px) rotateY(180deg);
+    transform:rotateY(180deg) translateZ(100px);
 }
-
-.plane-top {
-    transform: translateZ(100px) rotateX(90deg);
-}
-
-.plane-bottom {
-    transform: translateZ(100px) rotateX(270deg);
-}
-
 .plane-left {
-    transform: translateZ(100px) rotateY(90deg);
+    transform:rotateY(270deg) translateZ(100px);
 }
-
 .plane-right {
-    transform: translateZ(100px) rotateY(270deg);
+    transform:rotateY(90deg) translateZ(100px);
+}
+.plane-top {
+    transform:rotateX(90deg) translateZ(100px);
+}
+.plane-bottom {
+    transform:rotateX(270deg) translateZ(100px);
 }
