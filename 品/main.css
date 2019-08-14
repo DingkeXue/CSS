@@ -1,0 +1,28 @@
+/*=======品字布局1========*/
+.main,
+.left,
+.right {
+    width: 50%;
+    height: 300px;
+    background: tomato;
+    outline: 2px solid gray;
+}
+
+.main {
+    margin: 0 auto;
+}
+
+.left,.right {
+    float: left;
+}
+
+/*=======品字布局2========*/
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.main {
+    width: 51%;
+}
