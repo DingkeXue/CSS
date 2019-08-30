@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/../CORS/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CORS/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Wave/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Comet/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Comet/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Debounce/debounce.js" beforeDir="false" />
@@ -71,7 +72,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="5796" />
+          <entry key="css" value="5889" />
           <entry key="html" value="1390" />
           <entry key="js" value="215" />
           <entry key="md" value="21" />
@@ -79,7 +80,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="5796" />
+          <entry key="CSS" value="5889" />
           <entry key="HTML" value="1390" />
           <entry key="JavaScript" value="215" />
           <entry key="Markdown" value="21" />
@@ -89,20 +90,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Wave/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="138">
+              <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wave/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            <state relative-caret-position="156">
+              <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -229,15 +230,15 @@
       <workItem from="1564577977009" duration="2931000" />
       <workItem from="1565775896126" duration="4723000" />
       <workItem from="1566114869680" duration="2559000" />
-      <workItem from="1567141419589" duration="1141000" />
+      <workItem from="1567141419589" duration="2088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29450000" />
+    <option name="totallyTimeSpent" value="30397000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30238095" />
@@ -480,17 +481,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wave/main.css">
+    <entry file="file://$PROJECT_DIR$/Wave/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        <state relative-caret-position="138">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wave/index.html">
+    <entry file="file://$PROJECT_DIR$/Wave/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="156">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
         </state>
       </provider>
     </entry>
