@@ -1,0 +1,6 @@
+/*使用padding实现正方形。padding和margin的百分比都是基于父元素的width*/
+.rect {
+    padding-top: 50%;
+    width: 50%;
+    background: #000;
+}
