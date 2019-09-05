@@ -1,0 +1,24 @@
+/*  animation 动画实现*/
+body {
+    background: gray;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: move 3s linear 1s  alternate forwards;
+}
+@keyframes move {
+    0% {
+        transform: translateX(0);
+        background: #000;
+    }
+    100% {
+        transform: translateX(300px);
+        background: #0ff;
+    }
+}
+
+.circle:hover {
+    animation-play-state: paused;
+}
